@@ -1,13 +1,10 @@
 body{
     font-family: Roboto;
-    background: rgba(255,255,255,1);
-    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 23%, rgba(179,179,179,1) 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(23%, rgba(246,246,246,1)), color-stop(100%, rgba(179,179,179,1)));
-    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 23%, rgba(179,179,179,1) 100%);
-    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 23%, rgba(179,179,179,1) 100%);
-    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 23%, rgba(179,179,179,1) 100%);
-    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 23%, rgba(179,179,179,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#b3b3b3', GradientType=0 );
+
+    background: #C6FFDD;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #000000, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     background-attachment: fixed;
 }
 
